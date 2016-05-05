@@ -1,0 +1,580 @@
+html {
+	font-size: 16px;
+}
+
+/* ---------- HEADER ---------- */
+
+body {
+	background-image:  url("../img/sky.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+}
+
+#logo {
+	text-align: center;
+	margin-top: 2em;
+}
+
+#logo img {
+	max-width: 60%;
+}
+
+#skyline {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.menu {
+	display: none;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	background-color: #f2f2f2;
+	-webkit-box-shadow: 0 8px 6px -6px #333;
+  -moz-box-shadow: 0 8px 6px -6px #333;
+  box-shadow: 0 8px 6px -6px #333;
+}
+
+.menu ul {
+	list-style: none;
+	float: right;
+	width: 100%;
+	text-align: center;
+}
+
+.menu li {
+	display: inline;
+	margin-right: 0px;
+  border-right: 1px solid #333;
+  padding: 0 1.25em;
+	font-size: 2rem;
+	font-family: 'Lato', sans-serif;
+}
+ 
+li:last-child {
+  border-right: none;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #333;
+	text-transform: uppercase;
+}
+
+.menu li a:hover {
+	background-color: #666;
+	color: #f2f2f2;
+}
+
+/* ---------- ABOUT ---------- */
+
+.about {
+	height: auto;
+	background-color: #eeeeee;
+	margin-top: -.22em;
+}
+
+.about-info {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 3em;
+}
+
+.about-info img {
+	margin: 0 auto;
+	width: 30%;
+}
+
+.about-info h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 4em;
+	color: #333333;
+}
+
+.about-info span {
+	color: #AA3E30;
+}
+
+.about-info p {
+	font-size: 2em;
+	font-family: 'Lato', sans-serif;
+}
+
+.about-info a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 2.5rem;
+	background-color: #AA3E30
+}
+
+/* ---------- SKILLS ---------- */
+
+.skill-title {
+	background: linear-gradient(#eee, #fff);
+	background: -webkit-linear-gradient(#eee, #fff);
+  background: -o-linear-gradient(#eee, #fff);
+  background: -moz-linear-gradient(#eee, #fff);
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 3rem;
+	margin: 0 auto;
+	text-align: center;
+	color: #666;
+}
+
+.skills {
+	height: auto;
+	margin-bottom: 2em;
+	background-color: #fff;
+}
+
+.skill-block {
+	width: 100%;
+	text-align: center;
+	border-right: 1px solid #aaa;
+	padding-bottom: 3em;
+	opacity: 0;
+}
+
+.last-block {
+	border-right: none;
+}
+
+.skill-block img {
+	width: 50%;
+	margin: 0 auto;
+	padding: 1.5em;
+}
+
+.skill-block p {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5rem;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* ---------- WORKS ---------- */
+
+.works {
+	background-color: #eee;
+	margin-top: -2em;
+}
+
+.work-title {
+	background: linear-gradient(#fff, #F4F4F9);
+	background: -webkit-linear-gradient(#fff, #F4F4F9);
+  background: -o-linear-gradient(#fff, #F4F4F9);
+  background: -moz-linear-gradient(#fff, #F4F4F9);
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 3rem;
+	margin: 0 auto;
+	text-align: center;
+	color: #666;
+	padding: 2em 0;
+}
+
+.kelsey {
+	background-image: url('../img/kelsey.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: -6em;
+}
+
+.aguirre {
+	background-image: url('../img/aguirre.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.project-title {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #eee;
+	box-shadow: 0 0 10px #333;
+}
+
+.project-title h3 {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-size: 2rem;
+	padding: 1em;
+}
+
+.project-title a {
+	display: block;
+	color: #333;
+	text-decoration: none;
+}
+
+.project-title a:hover {
+	background-color: rgba(0,0,0,.8);
+	color: #fff;
+	transition: 300ms;
+}
+
+.mobile-kelsey,
+.mobile-aguirre {
+	visibility: hidden;
+}
+
+/* ---------- CONTACT ---------- */
+
+.contact {
+	background: linear-gradient(, #5C6C90, #3A4D76);
+	background: -webkit-linear-gradient(#5C6C90, #3A4D76);
+  background: -o-linear-gradient(#5C6C90, #3A4D76);
+  background: -moz-linear-gradient(#5C6C90, #3A4D76);
+}
+
+.contact-form {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+}
+
+input {
+	padding: .5em;
+	margin: 1em;
+	width: 40%;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+textarea {
+	width: 40%;
+	height: 100px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	margin-top: 1em;
+}
+
+.contact-form h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #f2f2f2;
+	font-size: 3rem;
+}
+
+.contact-form p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #f2f2f2;
+	font-size: 2rem;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.send {
+	width: 20%;
+	padding: 1em;
+	background-color: #B6BECF;
+	
+}
+
+/* ---------- FOOTER ---------- */
+
+.foot {
+	background-color: #333333;
+	position: relative;
+	bottom: 0;
+}
+
+.foot img {
+	height: 40px;
+	margin: 1em;
+	display: inline-block;
+}
+
+.copyright {
+	margin: 0 auto;
+	text-align: right;
+	padding: 2em;
+	color: #eeeeee;
+	font-family: 'Lato', sans-serif;
+}
+
+
+/* ---------- ABOUT PAGE STYLING ---------- */
+
+.about-jumbo {
+	background-image: url('../img/sky.jpg');
+	background-size: cover;
+	height: 300px;
+}
+
+.about-jumbo h1 {
+	color: #f2f2f2;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 3em;
+	font-size: 3rem;
+}
+
+.about-menu {
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	background-color: #f2f2f2;
+	-webkit-box-shadow: 0 8px 6px -6px #333;
+  -moz-box-shadow: 0 8px 6px -6px #333;
+  box-shadow: 0 8px 6px -6px #333;
+}
+
+.about-menu ul {
+	list-style: none;
+	float: right;
+	width: 100%;
+	text-align: center;
+}
+
+.about-menu li {
+	display: inline;
+	margin-right: 0px;
+  border-right: 1px solid #333;
+  padding: 0 1.25em;
+	font-size: 2rem;
+	font-family: 'Lato', sans-serif;
+}
+ 
+li:last-child {
+  border-right: none;
+}
+
+.about-menu li a {
+	text-decoration: none;
+	color: #333;
+	text-transform: uppercase;
+}
+
+.about-menu li a:hover {
+	background-color: #666;
+	color: #f2f2f2;
+	transition: 300ms;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+}
+
+.about-body {
+	background-color: #eee;
+}
+
+.ab-tagline {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2rem;
+	padding: 1em;
+}
+
+.ab-info {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.25rem;
+	padding: 1em;
+}
+
+.tags {
+	color: #6242C8;
+	font-size: 1.40rem;
+}
+
+.tag-lead {
+	color: #6242C8;
+}
+
+.ab-info a {
+	text-decoration: none;
+}
+
+/* ---------- THANK YOU STYLING ---------- */
+
+.message {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.thanks img {
+	width: 30%;
+}
+
+#thanks-bod {
+	background-image: url('../img/thanksback.jpg');
+}
+
+.message h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 4rem;
+	color: #f2f2f2;
+	margin-top: 0;
+}
+
+.message p {
+	font-family: 'Lato', sans-serif;
+	color: #f2f2f2;
+	margin-top: -2em;
+	font-size: 2rem;
+}
+
+.message a {
+	font-family: 'Lato', sans-serif;
+	color: #f2f2f2;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+.message a:hover {
+	background-color: #f2f2f2;
+	color: #333;
+}
+
+/* ---------- MOBILE STYLES ---------- */
+
+@media only screen and (max-width: 799px) {
+	
+	header {
+		background-image:  url("../img/sky.jpg");
+		background-size: cover;
+		overflow-x: hidden;
+	}
+	
+	body {
+		overflow-x: hidden;
+	}
+	
+	.about-info img {
+		width: 60%;
+	}
+	
+	.copyright {
+		text-align: center;
+	}
+	
+	.social-links {
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.social-links img {
+		height: auto;
+		width: 20%;
+	}
+	
+	#skyline img {
+		max-width: 100%;
+	}
+	
+	.about-info h1 {
+		font-size: 2rem;
+	}
+	
+	.about-info p {
+		font-size: 1.5rem;
+	}
+	
+	.skills {
+		margin-top: -3.9em;
+	}
+	
+	.skill-title {
+		padding-top: 2em;
+	}
+	
+	.work-title {
+		margin-top: -1.2em;
+		padding-top: 2em;
+		padding-bottom: 1.75em;
+	}
+	
+	.about-menu li {
+		font-size: .75rem;
+	}
+	
+	.menu li {
+		font-size: .75rem;
+	}
+	
+	.about {
+		margin-top: -.25em;
+	}
+	
+	.about-info a {
+		font-size: 1.75rem;
+	}
+	
+	.kelsey {
+		visibility: hidden;
+	}
+	
+	.aguirre {
+		visibility: hidden;
+	}
+	
+	.mobile-kelsey {
+		background-image:url('../img/kelsey.jpg');
+		background-size: cover;
+		height: 300px;
+		visibility: visible;
+		overflow-x: hidden;
+	}
+	
+	.mobile-aguirre {
+		background-image:url('../img/aguirre.jpg');
+		background-size: cover;
+		height: 300px;
+		visibility: visible;
+		overflow-x: hidden;
+	}
+	
+	.mobile-kelsey p,
+	.mobile-aguirre p {
+		margin: 0 auto;
+		text-align: center;
+		background-color: #f2f2f2;
+		width: 100%;
+		font-size: 1.5rem;
+		padding: 1em;
+		background-color: #fff;
+		font-family: 'Lato', sans-serif;
+		overflow-x: hidden;
+	}
+	
+	.contact {
+		margin-top: -22.4em;
+	}
+	
+	.contact-form p {
+		font-size: 1.75rem;
+		width: 100%;
+	}
+	
+	input {
+		width: 100%;
+		margin: 1em 0;
+	}
+	
+	textarea {
+		width: 100%;
+	}
+	
+	.send {
+		width: 80%;
+	}
+	
+	* {
+		overflow-x: hidden;
+	}
+}

@@ -1,0 +1,57 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+}
+
+.row::before,
+.row::after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+
+.one,
+.one-third,
+.two-thirds,
+.one-fourth,
+.half {
+  width: 100%;
+}
+
+body {
+	font-size: 90%;
+}
+
+@media only screen and (min-width: 800px) {
+  .one {
+    width: 100%;
+  }
+  .half {
+    width: calc(100% / 2);
+  }
+  .one-third {
+    width: calc(100% / 3);
+  }
+  .one-fourth {
+    width: calc(100% / 4);
+  }
+  .two-thirds {
+    width: calc(100% / 3 * 2);
+  }
+  .column {
+    float: left;
+  }
+	
+	body {
+		font-size: 100%;
+	}
+}
