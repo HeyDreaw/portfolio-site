@@ -636,4 +636,24 @@ hr {
 	* {
 		overflow-x: hidden;
 	}
+	
+	.port-work-main h2 {
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.port-work-main h4{
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.port-work-main p {
+		margin: 0 auto;
+		padding-bottom: 1em;
+	}
+	
+	#aguirre {
+		margin: 0 auto;
+		text-align: center;
+	}
 }
