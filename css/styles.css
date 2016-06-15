@@ -558,12 +558,12 @@ hr {
 		padding-bottom: 1.75em;
 	}
 	
+	.menu li,
 	.about-menu li {
 		font-size: .75rem;
-	}
-	
-	.menu li {
-		font-size: .75rem;
+		border: none;
+		margin: 0 auto;
+		padding: .80em;
 	}
 	
 	.about {
@@ -609,6 +609,10 @@ hr {
 		background-color: #fff;
 		font-family: 'Lato', sans-serif;
 		overflow-x: hidden;
+	}
+	
+	.mobile-aguirre a {
+		text-decoration: none;
 	}
 	
 	.contact {
