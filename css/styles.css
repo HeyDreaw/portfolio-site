@@ -5,13 +5,12 @@ html {
 /* ---------- HEADER ---------- */
 
 body {
-	background-image:  url("../img/sky.jpg");
+	background-image:  url("../img/night4.gif");
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -186,16 +185,9 @@ li:last-child {
 	padding-bottom: 1em;
 }
 
-.kelsey {
-	background-image: url('../img/kelsey.jpg');
-	background-size: cover;
-	background-attachment: fixed;
-	
-}
-
 .aguirre {
 	background-image: url('../img/aguirre.jpg');
-	background-size: cover;
+	background-size: contain;
 	background-attachment: fixed;
 	margin-top: -6.2em;
 }
@@ -227,7 +219,6 @@ li:last-child {
 	transition: 300ms;
 }
 
-.mobile-kelsey,
 .mobile-aguirre {
 	visibility: hidden;
 }
@@ -505,7 +496,7 @@ hr {
 @media only screen and (max-width: 799px) {
 	
 	header {
-		background-image:  url("../img/sky.jpg");
+		background-image:  url("../img/night4.gif");
 		background-size: cover;
 		overflow-x: hidden;
 	}
@@ -582,23 +573,16 @@ hr {
 		visibility: hidden;
 	}
 	
-	.mobile-kelsey {
-		background-image:url('../img/kelsey.jpg');
-		background-size: cover;
-		height: 300px;
-		visibility: visible;
-		overflow-x: hidden;
-	}
-	
 	.mobile-aguirre {
 		background-image:url('../img/aguirre.jpg');
 		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
 		height: 300px;
 		visibility: visible;
 		overflow-x: hidden;
 	}
 	
-	.mobile-kelsey p,
 	.mobile-aguirre p {
 		margin: 0 auto;
 		text-align: center;
@@ -616,7 +600,7 @@ hr {
 	}
 	
 	.contact {
-		margin-top: -22.4em;
+		margin-top: 0;
 	}
 	
 	.contact-form p {
