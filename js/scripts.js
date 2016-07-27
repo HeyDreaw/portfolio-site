@@ -20,27 +20,13 @@ $(document).ready(function(){
 		}, 2000);
 	});
 	
-	$(window).scroll( function(){
-    
-       
-        $('.skill-block').each( function(i){
-            
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-           
-            bottom_of_window = bottom_of_window + 300;  
-          
-            if( bottom_of_window > bottom_of_object ){
-                
-                $(this).animate({'opacity':'1'},600);
-                    
-            }
-        }); 
-    
-    });
-	
-	
+		$(window).scroll(function(){                          
+		if ($(this).scrollTop() > 1100) {
+				$('.skill-block').fadeIn(500);
+		} else {
+				$('.skill-block').fadeOut(500);
+		}
+	});
 	
 
 	
