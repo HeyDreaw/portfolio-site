@@ -33,6 +33,11 @@ header {
 	overflow-x: hidden;
 }
 
+#skyline img {
+	width: 100%;
+	margin-bottom: -.15em;
+}
+
 .menu {
 	display: none;
 	z-index: 1;
@@ -102,6 +107,9 @@ li:last-child {
 	font-family: 'Lato', sans-serif;
 	font-size: 4em;
 	color: #333333;
+	position: absolute;
+	padding: 1em;
+	text-align: center;
 }
 
 .about-info span {
@@ -111,6 +119,7 @@ li:last-child {
 .about-info p {
 	font-size: 2em;
 	font-family: 'Lato', sans-serif;
+	margin-top: 9em;
 }
 
 .about-info a {
