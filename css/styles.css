@@ -115,9 +115,8 @@ li:last-child {
 
 .about-info a {
 	text-decoration: none;
-	color: #fff;
+	color: #AA3E30;
 	font-size: 2.5rem;
-	background-color: #AA3E30
 }
 
 /* ---------- SKILLS ---------- */
@@ -145,7 +144,6 @@ li:last-child {
 	text-align: center;
 	border-right: 1px solid #aaa;
 	padding-bottom: 3em;
-	display: none;
 }
 
 .last-block {
@@ -414,7 +412,9 @@ li:last-child {
 }
 
 #thanks-bod {
-	background-image: url('../img/thanksback.jpg');
+	background: linear-gradient(#423075,#625192,#897BAF);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .message h3 {

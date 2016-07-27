@@ -20,14 +20,6 @@ $(document).ready(function(){
 		}, 2000);
 	});
 	
-		$(window).scroll(function(){                          
-		if ($(this).scrollTop() > 1100) {
-				$('.skill-block').fadeIn(500);
-		} else {
-				$('.skill-block').fadeOut(500);
-		}
-	});
-	
 
 	
 	
