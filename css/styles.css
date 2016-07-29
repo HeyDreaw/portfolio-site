@@ -63,8 +63,8 @@ header {
 	display: inline;
 	margin-right: 0px;
   border-right: 1px solid #333;
-  padding: 0 1.25em;
-	font-size: 2rem;
+  padding: 0 2em;
+	font-size: 1rem;
 	font-family: 'Lato', sans-serif;
 }
  
@@ -95,7 +95,7 @@ li:last-child {
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 3em;
+	padding-top: 5em;
 }
 
 .about-info img {
@@ -110,6 +110,8 @@ li:last-child {
 	position: absolute;
 	padding: 1em;
 	text-align: center;
+	left: 2%;
+	margin-top: 0;
 }
 
 .about-info span {
@@ -119,7 +121,7 @@ li:last-child {
 .about-info p {
 	font-size: 2em;
 	font-family: 'Lato', sans-serif;
-	margin-top: 9em;
+	margin-top: 7em;
 }
 
 .about-info a {
@@ -314,6 +316,10 @@ textarea {
 	font-family: 'Lato', sans-serif;
 }
 
+.copyright a {
+	color: #f2f2f2;
+	text-decoration: none;
+}
 
 /* ---------- ABOUT PAGE STYLING ---------- */
 
@@ -356,8 +362,8 @@ textarea {
 	display: inline;
 	margin-right: 0px;
   border-right: 1px solid #333;
-  padding: 0 1.25em;
-	font-size: 2rem;
+  padding: 0 2em;
+	font-size: 1rem;
 	font-family: 'Lato', sans-serif;
 }
  
@@ -424,6 +430,7 @@ li:last-child {
 	background: linear-gradient(#423075,#625192,#897BAF);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	height: 100%;
 }
 
 .message h3 {
@@ -548,10 +555,12 @@ hr {
 	
 	.about-info h1 {
 		font-size: 2rem;
+		margin-bottom: 3rem;
 	}
 	
 	.about-info p {
 		font-size: 1.5rem;
+		margin-top: 10em;
 	}
 	
 	.skills {
@@ -568,12 +577,9 @@ hr {
 		padding-bottom: 1.75em;
 	}
 	
-	.menu li,
-	.about-menu li {
-		font-size: .75rem;
-		border: none;
-		margin: 0 auto;
-		padding: .80em;
+	.menu,
+	.about-menu {
+		visibility: hidden;
 	}
 	
 	.about {
@@ -662,5 +668,9 @@ hr {
 	#aguirre {
 		margin: 0 auto;
 		text-align: center;
+	}
+	
+	.skill-block span {
+		font-size: 1.75rem;
 	}
 }
