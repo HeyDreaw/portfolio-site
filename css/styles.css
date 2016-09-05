@@ -27,6 +27,10 @@ header {
 	max-width: 60%;
 }
 
+#main-logo {
+	opacity: 0;
+}
+
 #skyline {
 	margin: 0;
 	padding: 0;

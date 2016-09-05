@@ -20,6 +20,12 @@ $(document).ready(function(){
 		}, 2000);
 	});
 	
+	
+	setTimeout(function (){
+		$('#main-logo').animate({
+			opacity: 1
+		}, 1500);
+	});
 
 	
 	
