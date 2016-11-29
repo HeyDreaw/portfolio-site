@@ -11,7 +11,7 @@ $(document).ready(function(){
 	
 	$(function() {
 		count = 0;
-		myTitles = ["coffee addict", "comic reader", "guitar player", "proud nerd", "web developer"];
+		myTitles = ["coffee addict", "comic reader", "guitar player", "total nerd", "web developer"];
 		setInterval(function () {
 			count++;
 			$("#my-title").fadeOut(400, function () {
