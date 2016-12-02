@@ -593,4 +593,9 @@ hr {
 	.skill-block span {
 		font-size: 1.75rem;
 	}
+	
+	.works img {
+		max-width: 50%;
+	}
+	
 }
