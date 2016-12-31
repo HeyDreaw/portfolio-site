@@ -6,14 +6,15 @@ html {
   box-sizing: inherit;
 }
 
-.container {
+main,
+footer {
   margin: 0 auto;
   padding: 0;
   max-width: 100%;
 }
 
-.row::before,
-.row::after {
+section::before,
+section::after {
   display: table;
   content: " ";
   clear: both;
@@ -47,7 +48,7 @@ body {
   .two-thirds {
     width: calc(100% / 3 * 2);
   }
-  .column {
+  article {
     float: left;
   }
 	
