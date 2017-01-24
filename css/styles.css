@@ -326,7 +326,7 @@ hr {
 	}
 	
 	#menu ul {
-		margin-top: 0;
+		margin-top: -3.5em;
 		padding: 0;
 	}
 	
@@ -349,7 +349,43 @@ hr {
 	}
 	
 	.jumbo {
-		margin-top: 25em;
+		margin-top: 23em;
+	}
+	
+	.jumbo h1 {
+		font-size: 3.5em;
+	}
+	
+	.jumbo h3 {
+		font-size: 1.5em;
+	}
+	
+	.quick-bio p {
+		text-align: center;
+	}
+	
+	.my-pic {
+		margin-top: -5em;
+	}
+	
+	.work-projects h2 {
+		margin-bottom: 5em;
+	}
+	
+	.work-projects img {
+		width: 40%;
+	}
+	
+	.work-treehouse {
+		margin-top: 6em;
+	}
+	
+	.email h1 {
+		font-size: 1em;
+	}
+	
+	.hello {
+		margin-top: 15em;
 	}
 }
 
