@@ -311,9 +311,14 @@ hr {
 		height: auto;
 		text-align: center;
 	}
+    
+    #hd-logo {
+        width: 30%;
+    }
 	
 	#menu ul {
 		margin-top: -3.5em;
+        text-align: center;
 		padding: 0;
 	}
 	
@@ -338,10 +343,10 @@ hr {
 	.jumbo {
 		margin-top: 23em;
 	}
-	
-	.jumbo h1 {
-		font-size: 3.5em;
-	}
+    
+    .jumbo img {
+        width: 100%;
+    }
 	
 	.jumbo h3 {
 		font-size: 1.5em;
