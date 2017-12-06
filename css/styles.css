@@ -299,6 +299,10 @@ hr {
 		margin: 0 auto;
 		padding: 0;
 	}
+    
+    #home {
+        background-size: cover;
+    }
 	
 	main {
 		margin-left: 0;
@@ -331,6 +335,7 @@ hr {
 	.my-pic {
 		margin: 0 auto;
         text-align: center;
+        margin-top: -9em;
 	}
 	
 	.email h1 {
