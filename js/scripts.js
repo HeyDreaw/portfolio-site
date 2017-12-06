@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-$('.report-card.treehouse').reportCard({
-    userName: 'heydreaw',
-    site: 'treehouse',
-    badgesAmount: 7
+setTimeout(function (){
+  $('.jumbo img').animate({
+    opacity: 1
+  }, 1500);
 });
 
 	
