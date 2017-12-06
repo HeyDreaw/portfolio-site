@@ -329,19 +329,8 @@ hr {
 	}
 	
 	.my-pic {
-		margin-top: -5em;
-	}
-	
-	.work-projects h2 {
-		margin-bottom: 5em;
-	}
-	
-	.work-projects img {
-		width: 40%;
-	}
-	
-	.work-treehouse {
-		margin-top: 6em;
+		margin: 0 auto;
+        text-align: center;
 	}
 	
 	.email h1 {
