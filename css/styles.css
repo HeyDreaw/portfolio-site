@@ -301,7 +301,7 @@ hr {
 	}
     
     #home {
-        background-size: cover;
+        background: url("../img/robodrag-mobile.jpg") center center cover no-repeat fixed;
     }
 	
 	main {
